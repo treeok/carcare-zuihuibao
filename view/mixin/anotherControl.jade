@@ -1,0 +1,10 @@
+mixin anotherControl(labelTxt,defaultTxt,id)
+   div(style="background-color:#fff;border-top:1px solid #e3e3e3;")
+      label.label-horizontal(style="width:50%;" for="#{id}") #{labelTxt}
+      if block
+         block
+      else
+         input.input-horizontal(style="width:45%;text-align:right;" placeholder="#{defaultTxt}" id="#{id}")
+
+
+

@@ -1,0 +1,12 @@
+- title = '车挣'
+-var resource = 'http://10.8.6.8:8080/public';
+doctype html
+html
+   head
+      title #{title}
+      meta(http-equiv="Content-Type",content="text/html; charset=utf-8")
+      meta(name="viewport",content="width=device-width, initial-scale=1")
+      include include/loads.jade
+   body
+      block content
+      include include/footer.jade
